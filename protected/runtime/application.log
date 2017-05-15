@@ -1,0 +1,281 @@
+2017/05/14 14:05:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "web/getQUote".' in /home/renziito/git/Yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/getQUote')
+#1 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/quoteMatic/web/getQUote
+---
+2017/05/14 14:06:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "web/getQuote".' in /home/renziito/git/Yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/getQuote')
+#1 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/quoteMatic/web/getQuote
+---
+2017/05/14 14:28:53 [error] [exception.CException] exception 'CException' with message 'Alias "ext.Curl.Curl" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/renziito/git/Yii/framework/YiiBase.php:323
+Stack trace:
+#0 /home/renziito/git/Yii/framework/YiiBase.php(196): YiiBase::import('ext.Curl.Curl', true)
+#1 /home/renziito/git/Yii/framework/base/CModule.php(393): YiiBase::createComponent(Array)
+#2 /home/renziito/git/Yii/framework/base/CModule.php(103): CModule->getComponent('curl')
+#3 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(7): CModule->__get('curl')
+#4 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionGetQuote()
+#5 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('getQuote')
+#9 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/getQuote')
+#10 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/quoteMatic/web/getQuote
+---
+2017/05/14 14:29:01 [error] [exception.CException] exception 'CException' with message 'Alias "ext.curl.Curl" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/renziito/git/Yii/framework/YiiBase.php:323
+Stack trace:
+#0 /home/renziito/git/Yii/framework/YiiBase.php(196): YiiBase::import('ext.curl.Curl', true)
+#1 /home/renziito/git/Yii/framework/base/CModule.php(393): YiiBase::createComponent(Array)
+#2 /home/renziito/git/Yii/framework/base/CModule.php(103): CModule->getComponent('curl')
+#3 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(7): CModule->__get('curl')
+#4 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionGetQuote()
+#5 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('getQuote')
+#9 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/getQuote')
+#10 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/quoteMatic/web/getQuote
+---
+2017/05/14 14:29:24 [error] [php] Missing argument 2 for Curl::post(), called in /home/renziito/git/quoteMatic/protected/controllers/WebController.php on line 7 and defined (/home/renziito/git/quoteMatic/protected/extensions/Curl.php:140)
+Stack trace:
+#0 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/renziito/git/Yii/framework/web/CController.php(286): WebController->runAction()
+#2 /home/renziito/git/Yii/framework/web/CController.php(265): WebController->runActionWithFilters()
+#3 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): WebController->run()
+#4 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /home/renziito/git/quoteMatic/index.php(13): CWebApplication->run()
+REQUEST_URI=/quoteMatic/web/getQuote
+in /home/renziito/git/quoteMatic/protected/extensions/Curl.php (140)
+in /home/renziito/git/quoteMatic/protected/controllers/WebController.php (7)
+in /home/renziito/git/quoteMatic/index.php (13)
+2017/05/14 14:39:10 [error] [exception.CException] exception 'CException' with message 'Property "WebController.marshableKey" is not defined.' in /home/renziito/git/Yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Quotes.php(10): CComponent->__get('marshableKey')
+#1 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Quotes->get()
+#2 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionGetQuote()
+#3 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('getQuote')
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/getQuote')
+#8 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quoteMatic/web/getQuote
+---
+2017/05/14 14:39:20 [error] [exception.CException] exception 'CException' with message 'Property "WebController.marshableKey" is not defined.' in /home/renziito/git/Yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Quotes.php(10): CComponent->__get('marshableKey')
+#1 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Quotes->get()
+#2 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionGetQuote()
+#3 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('getQuote')
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/getQuote')
+#8 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quoteMatic/web/getQuote
+---
+2017/05/14 14:39:25 [error] [exception.CException] exception 'CException' with message 'Property "WebController.marshableKey" is not defined.' in /home/renziito/git/Yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Quotes.php(10): CComponent->__get('marshableKey')
+#1 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Quotes->get()
+#2 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionGetQuote()
+#3 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('getQuote')
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/getQuote')
+#8 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quoteMatic/web/getQuote
+---
+2017/05/14 14:39:33 [error] [exception.CException] exception 'CException' with message 'Property "WebController.marshableKey" is not defined.' in /home/renziito/git/Yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Quotes.php(10): CComponent->__get('marshableKey')
+#1 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Quotes->get()
+#2 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionGetQuote()
+#3 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('getQuote')
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/getQuote')
+#8 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quoteMatic/web/getQuote
+---
+2017/05/14 14:43:30 [error] [exception.CException] exception 'CException' with message 'Property "WebController.marshableKey" is not defined.' in /home/renziito/git/Yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Quotes.php(10): CComponent->__get('marshableKey')
+#1 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Quotes->get()
+#2 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionGetQuote()
+#3 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('getQuote')
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/getQuote')
+#8 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quoteMatic/web/getQuote
+---
+2017/05/14 14:45:24 [error] [exception.CException] exception 'CException' with message 'Property "WebController._key" is not defined.' in /home/renziito/git/Yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Quotes.php(10): CComponent->__get('_key')
+#1 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Quotes->get()
+#2 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionGetQuote()
+#3 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('getQuote')
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/getQuote')
+#8 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quoteMatic/web/getQuote
+---
+2017/05/14 14:50:32 [error] [exception.CException] exception 'CException' with message 'Property "WebController._key" is not defined.' in /home/renziito/git/Yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Quotes.php(10): CComponent->__get('_key')
+#1 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Quotes->get()
+#2 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionGetQuote()
+#3 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('getQuote')
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/getQuote')
+#8 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quoteMatic/web/getQuote
+---
+2017/05/14 15:27:17 [error] [php] Illegal string offset 'quote' (/home/renziito/git/quoteMatic/protected/components/Quotes.php:18)
+Stack trace:
+#0 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/renziito/git/Yii/framework/web/CController.php(286): WebController->runAction()
+#2 /home/renziito/git/Yii/framework/web/CController.php(265): WebController->runActionWithFilters()
+#3 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): WebController->run()
+#4 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /home/renziito/git/quoteMatic/index.php(13): CWebApplication->run()
+REQUEST_URI=/quoteMatic/web/getQuote
+in /home/renziito/git/quoteMatic/protected/components/Quotes.php (18)
+in /home/renziito/git/quoteMatic/protected/controllers/WebController.php (7)
+in /home/renziito/git/quoteMatic/index.php (13)
+2017/05/14 15:30:50 [error] [php] Illegal string offset 'quote' (/home/renziito/git/quoteMatic/protected/components/Quotes.php:20)
+Stack trace:
+#0 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/renziito/git/Yii/framework/web/CController.php(286): WebController->runAction()
+#2 /home/renziito/git/Yii/framework/web/CController.php(265): WebController->runActionWithFilters()
+#3 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): WebController->run()
+#4 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /home/renziito/git/quoteMatic/index.php(13): CWebApplication->run()
+REQUEST_URI=/quoteMatic/web/getQuote
+in /home/renziito/git/quoteMatic/protected/components/Quotes.php (20)
+in /home/renziito/git/quoteMatic/protected/controllers/WebController.php (7)
+in /home/renziito/git/quoteMatic/index.php (13)
+2017/05/14 15:35:07 [error] [php] Undefined index: quote (/home/renziito/git/quoteMatic/protected/components/Quotes.php:28)
+Stack trace:
+#0 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/renziito/git/Yii/framework/web/CController.php(286): WebController->runAction()
+#2 /home/renziito/git/Yii/framework/web/CController.php(265): WebController->runActionWithFilters()
+#3 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): WebController->run()
+#4 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /home/renziito/git/quoteMatic/index.php(13): CWebApplication->run()
+REQUEST_URI=/quoteMatic/web/getQuote
+in /home/renziito/git/quoteMatic/protected/components/Quotes.php (28)
+in /home/renziito/git/quoteMatic/protected/controllers/WebController.php (7)
+in /home/renziito/git/quoteMatic/index.php (13)
+2017/05/14 15:35:31 [error] [php] Undefined index: quote (/home/renziito/git/quoteMatic/protected/components/Quotes.php:29)
+Stack trace:
+#0 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/renziito/git/Yii/framework/web/CController.php(286): WebController->runAction()
+#2 /home/renziito/git/Yii/framework/web/CController.php(265): WebController->runActionWithFilters()
+#3 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): WebController->run()
+#4 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /home/renziito/git/quoteMatic/index.php(13): CWebApplication->run()
+REQUEST_URI=/quoteMatic/web/getQuote
+in /home/renziito/git/quoteMatic/protected/components/Quotes.php (29)
+in /home/renziito/git/quoteMatic/protected/controllers/WebController.php (7)
+in /home/renziito/git/quoteMatic/index.php (13)
+2017/05/14 21:29:54 [error] [php] include(Text2Img.php): failed to open stream: No such file or directory (/home/renziito/git/Yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Quotes.php(47): spl_autoload_call()
+#1 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(11): WebController->get()
+#2 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actiongetQuote()
+#3 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /home/renziito/git/Yii/framework/web/CController.php(286): WebController->runAction()
+#5 /home/renziito/git/Yii/framework/web/CController.php(265): WebController->runActionWithFilters()
+#6 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): WebController->run()
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /home/renziito/git/quoteMatic/index.php(13): CWebApplication->run()
+REQUEST_URI=/quoteMatic/web/getQuote
+in /home/renziito/git/quoteMatic/protected/components/Quotes.php (47)
+in /home/renziito/git/quoteMatic/protected/controllers/WebController.php (11)
+in /home/renziito/git/quoteMatic/index.php (13)
+2017/05/14 21:33:00 [error] [php] Missing argument 1 for CApplication::createUrl(), called in /home/renziito/git/quoteMatic/protected/views/web/getQuote.php on line 3 and defined (/home/renziito/git/Yii/framework/base/CApplication.php:559)
+Stack trace:
+#0 /home/renziito/git/Yii/framework/web/CBaseController.php(95): WebController->renderInternal()
+#1 /home/renziito/git/Yii/framework/web/CController.php(869): WebController->renderFile()
+#2 /home/renziito/git/Yii/framework/web/CController.php(782): WebController->renderPartial()
+#3 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(7): WebController->render()
+#4 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#5 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /home/renziito/git/Yii/framework/web/CController.php(286): WebController->runAction()
+#7 /home/renziito/git/Yii/framework/web/CController.php(265): WebController->runActionWithFilters()
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): WebController->run()
+#9 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /home/renziito/git/quoteMatic/index.php(13): CWebApplication->run()
+REQUEST_URI=/quoteMatic/
+in /home/renziito/git/quoteMatic/protected/views/web/getQuote.php (3)
+in /home/renziito/git/quoteMatic/protected/controllers/WebController.php (7)
+in /home/renziito/git/quoteMatic/index.php (13)
+2017/05/14 21:33:28 [error] [exception.CException] exception 'CException' with message 'Property "WebController.controller" is not defined.' in /home/renziito/git/Yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/views/web/getQuote.php(3): CComponent->__get('controller')
+#1 /home/renziito/git/Yii/framework/web/CBaseController.php(126): require('/home/renziito/...')
+#2 /home/renziito/git/Yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/renziito/...', NULL, true)
+#3 /home/renziito/git/Yii/framework/web/CController.php(869): CBaseController->renderFile('/home/renziito/...', NULL, true)
+#4 /home/renziito/git/Yii/framework/web/CController.php(782): CController->renderPartial('getQuote', NULL, true)
+#5 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(7): CController->render('getQuote')
+#6 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#7 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#11 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#12 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#13 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/14 22:43:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /home/renziito/git/Yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/quoteMatic/images/logo.png
+---
