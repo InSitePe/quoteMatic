@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?= Yii::app()->baseUrl ?>/css/style.css">
 
-    <meta property="og:url" content="http://developando.com" />
-    <meta property="og:title" content="Developando Web & Móvil" />
-    <meta property="og:description" content="Empresa encarga de desarrollar aplicaciones movil y web con calidad" />
-    <meta property="og:image" content="http://developando.com/images/developandoLogo.jpeg" />
+    <meta property="og:url" content="<?= Yii::app()->baseUrl ?>" />
+    <meta property="og:title" content="QuoteMatic!" />
+    <meta property="og:image" content="<?= Yii::app()->baseUrl ?>/images/logo.png" />
+    <meta property="og:description" content="Quotes for Everyone" />
 
     <title>quoteMatic</title>
 </head>
