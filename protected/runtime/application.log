@@ -279,3 +279,344 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/quoteMatic/images/logo.png
 ---
+2017/05/15 16:09:44 [error] [php] Undefined variable: translatedTex (/home/renziito/git/quoteMatic/protected/components/Translator.php:49)
+Stack trace:
+#0 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/renziito/git/Yii/framework/web/CController.php(286): WebController->runAction()
+#2 /home/renziito/git/Yii/framework/web/CController.php(265): WebController->runActionWithFilters()
+#3 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): WebController->run()
+#4 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /home/renziito/git/quoteMatic/index.php(13): CWebApplication->run()
+REQUEST_URI=/quoteMatic/
+in /home/renziito/git/quoteMatic/protected/components/Translator.php (49)
+in /home/renziito/git/quoteMatic/protected/controllers/WebController.php (6)
+in /home/renziito/git/quoteMatic/index.php (13)
+2017/05/15 16:21:11 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:21:21 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:22:26 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:22:28 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:22:29 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:22:30 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:22:30 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:22:30 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:22:31 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:22:31 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:22:31 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:22:31 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:22:31 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:22:32 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:22:32 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:22:32 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:22:32 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 16:22:32 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "google".' in /home/renziito/git/Yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CComponent->__call('google', Array)
+#1 /home/renziito/git/quoteMatic/protected/components/Translator.php(39): CWebApplication->google()
+#2 /home/renziito/git/quoteMatic/protected/controllers/WebController.php(6): Translator->google('Don't stay in b...')
+#3 /home/renziito/git/Yii/framework/web/actions/CInlineAction.php(49): WebController->actionQuote()
+#4 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/renziito/git/Yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/renziito/git/Yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): CController->run('Quote')
+#8 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('web/Quote')
+#9 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quoteMatic/
+---
+2017/05/15 20:08:29 [error] [php] Undefined variable: dom (/home/renziito/git/quoteMatic/protected/components/Translator.php:40)
+Stack trace:
+#0 /home/renziito/git/Yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/renziito/git/Yii/framework/web/CController.php(286): WebController->runAction()
+#2 /home/renziito/git/Yii/framework/web/CController.php(265): WebController->runActionWithFilters()
+#3 /home/renziito/git/Yii/framework/web/CWebApplication.php(282): WebController->run()
+#4 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /home/renziito/git/quoteMatic/index.php(13): CWebApplication->run()
+REQUEST_URI=/quoteMatic/
+in /home/renziito/git/quoteMatic/protected/components/Translator.php (40)
+in /home/renziito/git/quoteMatic/protected/controllers/WebController.php (6)
+in /home/renziito/git/quoteMatic/index.php (13)
+2017/05/15 22:20:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<".' in /home/renziito/git/Yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/quoteMatic/%3C?=%20Yii::app()-%3EcreateUrl($this-%3Eid)%20?%3E/getQuote
+HTTP_REFERER=http://localhost/quoteMatic/famous
+---
+2017/05/15 22:25:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<".' in /home/renziito/git/Yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/quoteMatic/%3C?=%20Yii::app()-%3EcreateUrl($this-%3Eid)%20?%3E/getQuote
+HTTP_REFERER=http://localhost/quoteMatic/famous
+---
+2017/05/15 22:27:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "getQuote".' in /home/renziito/git/Yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/renziito/git/Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('getQuote')
+#1 /home/renziito/git/Yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/renziito/git/quoteMatic/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/quoteMatic/getQuote
+HTTP_REFERER=http://localhost/quoteMatic/famous
+---

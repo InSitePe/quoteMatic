@@ -30,8 +30,10 @@ return array(
             'allowAutoLogin' => true,
         ),
         'curl'         => array(
-            'class'   => 'ext.Curl',
-            'options' => array(/* additional curl options */),
+            'class' => 'ext.Curl',
+        ),
+        'google'       => array(
+            'class' => 'ext.Google',
         ),
         // uncomment the following to enable URLs in path-format
         'urlManager'   => array(
@@ -41,7 +43,11 @@ return array(
                 '<controller:\w+>/<id:\d+>'              => '<controller>/view',
                 '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
                 '<controller:\w+>/<action:\w+>'          => '<controller>/<action>',
-                '/'                                      => 'web/Quote'
+                '/'                                      => 'web/Quote',
+                '/famous'                                => 'web/Quote',
+                '/movies'                                => 'web/Movies',
+                '/chuck'                                 => 'web/Chuck',
+                '/trump'                                 => 'web/Trump'
             ),
         ),
         // database settings are configured in database.php

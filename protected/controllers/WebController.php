@@ -6,6 +6,7 @@ class WebController extends Controller {
         $this->layout = "/";
         $this->render('getQuote');
     }
+    
 
     public function actiongetQuote() {
         echo json_encode(Quotes::get()[0]);
@@ -14,7 +15,7 @@ class WebController extends Controller {
     public function actionTranslate($text) {
         echo json_encode([
             Translator::doRequest($text),
-            Translator::alterRequest($text)
+            Translator::alterRequest($text),
         ]);
     }
 

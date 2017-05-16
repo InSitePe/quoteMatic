@@ -1,24 +1,9 @@
 <?php
 /* @var $this WebController */
 ?>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="en">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Insite Group">
-    <meta name="description" content="Free Quotes">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?= Yii::app()->baseUrl ?>/css/style.css">
-
-    <meta property="og:url" content="http://developando.com" />
-    <meta property="og:title" content="Developando Web & Móvil" />
-    <meta property="og:description" content="Empresa encarga de desarrollar aplicaciones movil y web con calidad" />
-    <meta property="og:image" content="http://developando.com/images/developandoLogo.jpeg" />
-
-    <title>quoteMatic</title>
-</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="<?= Yii::app()->baseUrl ?>/css/style.css">
 
 <div class="container">
     <div class="row">
@@ -28,8 +13,7 @@
     </div>
 </div>
 <br>
-
-<div class="container" style="display: none">
+<div class="container">
     <ul>
         <li><a class="active" href="famous">Frases de Famosos</a></li>
         <li><a href="movies">Frases de Peliculas</a></li>
@@ -48,22 +32,12 @@
                 <div class="quote">
                     <span id="quote_en"></span>
                 </div>
-                <div class="fb-share-button" 
-                     data-href="<?= Yii::app()->baseUrl ?>" 
-                     data-layout="button" data-caption="caption caption"
-                     data-size="small" data-mobile-iframe="false">
-                    <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?= Yii::app()->baseUrl ?>&amp;src=sdkpreparse">
-                        Compartir
-                    </a>
-                </div>
                 <div class="author"><span class="author_name"></span>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div id="fb-root"></div>
-
 
 <div class="btn button raised center-block"  id="generate-button">
     NUEVA FRASE
@@ -108,13 +82,4 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.12.1/TweenMax.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="<?= Yii::app()->baseUrl ?>/js/quotes.js"></script>
-<script>(function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id))
-            return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9&appId=335117643494133";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+<script src="<?= Yii::app()->baseUrl ?>/js/movie.js"></script>

@@ -35,4 +35,10 @@ class Translator {
         return $translatedTex;
     }
 
+    public function google($text) {
+        $url  = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=es&dt=t&q=" . urlencode($text);
+        $translatedTex = json_decode(file_get_contents($url));
+        return $translatedTex[0][0][0];
+    }
+
 }
