@@ -21,7 +21,7 @@ function doIt() {
             }, 'json');
         },
         error: function (err) {
-            console.log(err.responseText);
+            console.dir(err);
         }
     });
 }

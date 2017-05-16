@@ -8,13 +8,13 @@
     <meta name="author" content="Insite Group">
     <meta name="description" content="Free Quotes">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?= Yii::app()->baseUrl ?>/css/bootstrap.css">
+    <link rel="stylesheet" href="<?= Yii::app()->baseUrl ?>/css/font.css">
     <link rel="stylesheet" href="<?= Yii::app()->baseUrl ?>/css/style.css">
 
-    <meta property="og:url" content="<?= Yii::app()->baseUrl ?>" />
+    <meta property="og:url" content="<?= Yii::app()->getBaseUrl(true) ?>" />
     <meta property="og:title" content="QuoteMatic!" />
-    <meta property="og:image" content="<?= Yii::app()->baseUrl ?>/images/logo.png" />
+    <meta property="og:image" content="<?= Yii::app()->getBaseUrl(true) ?>/images/logo.png" />
     <meta property="og:description" content="Quotes for Everyone" />
 
     <title>quoteMatic</title>
@@ -48,11 +48,10 @@
                 <div class="quote">
                     <span id="quote_en"></span>
                 </div>
-                <div class="fb-share-button" 
-                     data-href="<?= Yii::app()->baseUrl ?>" 
+                <div class="fb-share-button pull-left" 
                      data-layout="button" data-caption="caption caption"
                      data-size="small" data-mobile-iframe="false">
-                    <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?= Yii::app()->baseUrl ?>&amp;src=sdkpreparse">
+                    <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?= Yii::app()->getBaseUrl(true) ?>&amp;src=sdkpreparse">
                         Compartir
                     </a>
                 </div>
