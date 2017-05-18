@@ -4,11 +4,15 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="<?= Yii::app()->baseUrl ?>/css/style.css">
+<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Sancreek' rel='stylesheet' type='text/css'>
 
 <div class="container">
     <div class="row">
-        <div class="col-xs-8 col-xs-offset-3">
-            <img src="<?= Yii::app()->baseUrl . '/images/logo.png' ?>" class="img-responsive">
+        <div class="col-xs-8 col-xs-offset-2">
+            <span data-text="quoteMatic" class="dashed-shadow hello">quoteMatic</span>
+            <br />
         </div>
     </div>
 </div>

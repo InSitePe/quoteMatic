@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="<?= Yii::app()->baseUrl ?>/css/font.css">
     <link rel="stylesheet" href="<?= Yii::app()->baseUrl ?>/css/style.css">
 
+    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+
     <meta property="og:url" content="<?= Yii::app()->getBaseUrl(true) ?>" />
     <meta property="og:title" content="QuoteMatic!" />
     <meta property="og:image" content="<?= Yii::app()->getBaseUrl(true) ?>/images/logo.png" />
@@ -22,8 +24,9 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-xs-8 col-xs-offset-3">
-            <img src="<?= Yii::app()->baseUrl . '/images/logo.png' ?>" class="img-responsive">
+        <div class="col-xs-12 text-center">
+            <span data-text="quoteMatic" class="dashed-shadow hello">quoteMatic</span>
+            <br />
         </div>
     </div>
 </div>
@@ -48,15 +51,20 @@
                 <div class="quote">
                     <span id="quote_en"></span>
                 </div>
-                <div class="fb-share-button pull-left" 
+                <div class="author"><span class="author_name"></span>
+                </div>
+<!--                <div class="fb-share-button pull-left"
+                     data-href ="<?php //Yii::app()->getBaseUrl(true) ?>"
                      data-layout="button" data-caption="caption caption"
                      data-size="small" data-mobile-iframe="false">
                     <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?= Yii::app()->getBaseUrl(true) ?>&amp;src=sdkpreparse">
                         Compartir
                     </a>
                 </div>
-                <div class="author"><span class="author_name"></span>
-                </div>
+                <div class="whatsapp pull-left">
+                    <a href="" data-action="share/whatsapp/share" class="fa fa-whatsapp bolder"> Compartir</a>
+                </div>-->
+                <hr style="border: transparent">
             </div>
         </div>
     </div>
@@ -108,7 +116,8 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.12.1/TweenMax.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="<?= Yii::app()->baseUrl ?>/js/quotes.js"></script>
-<script>(function (d, s, id) {
+<script>
+    (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id))
             return;
@@ -116,4 +125,5 @@
         js.id = id;
         js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9&appId=335117643494133";
         fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    }(document, 'script', 'facebook-jssdk'));
+</script>

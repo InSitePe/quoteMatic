@@ -15,6 +15,7 @@ function doIt() {
             $('#overlay').remove();
             $("meta[property='og:description']").remove();
             $('head').append("<meta property='og:description' content='" + data.quote.en + "'>");
+            $('.fa-whatsapp').attr('href', 'whatsapp://send?text="' + data.quote.en + '"');
             $.get('web/translate', {text: data.quote.en}, function (texts) {
                 $("#quote_es_1").text("\"" + texts[0] + "\"");
                 $("#quote_es_2").text("\"" + texts[1] + "\"");

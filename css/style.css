@@ -104,3 +104,94 @@ li a:hover {
     color : white;
     background-color: #111;
 }
+
+.dashed-shadow {
+    position: relative;
+    display: inline-block;
+    color: #ba9186;
+}
+
+@keyframes dash-animation {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+.dashed-shadow:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    bottom: -2px;
+    right: -2px;
+    background-size: 100%;
+    background-size: 6px 6px;
+}
+
+.dashed-shadow:hover:before {
+    animation: dash-animation 30s infinite linear;
+}
+
+.dashed-shadow:after {
+    content: attr(data-text);
+    position: absolute;
+    left: -8px;
+    top: -6px;
+    color: #b85b3f;
+    text-shadow: 3px 3px #e8e3c7;
+}
+
+.hello {
+    background-color: transparent;
+    text-align: center;
+    line-height: 1.2em;
+    padding-top: 0px;
+    font-family: 'Cookie',cursive;
+    font-size: 140pt;
+}
+
+@media (max-width: 600px) {
+    .hello {
+        font-size: 70pt;
+    }
+    .title{
+        padding-left:5%;
+        padding-right: 5%;
+        font-size: 20px;
+    }
+    .quote{
+        font-size: 25px;
+    }
+    .author {
+        font-size: 16px;
+    }
+}
+
+
+
+
+.bolder{
+    font-weight: bolder
+}
+
+.whatsapp {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid #008000;
+    border-radius:15%;
+    transition-duration: 0.5s;
+    background-color: #008000;
+    cursor: pointer;
+}
+.whatsapp .fa-whatsapp {
+    padding-top: 4px;
+    font-size: 12px;
+    padding-left: 1px;
+    text-decoration: none;
+    color: #fff;
+}
