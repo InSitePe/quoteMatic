@@ -6,8 +6,7 @@
     <meta name="language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Insite Group">
-    <meta name="description" content="Free Quotes">
-
+    <meta name="description" content="Frases Gratis para Todos">
     <link rel="stylesheet" href="<?= Yii::app()->baseUrl ?>/css/bootstrap.css">
     <link rel="stylesheet" href="<?= Yii::app()->baseUrl ?>/css/font.css">
     <link rel="stylesheet" href="<?= Yii::app()->baseUrl ?>/css/style.css">
@@ -15,9 +14,11 @@
     <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
 
     <meta property="og:url" content="<?= Yii::app()->getBaseUrl(true) ?>" />
-    <meta property="og:title" content="QuoteMatic!" />
-    <meta property="og:image" content="<?= Yii::app()->getBaseUrl(true) ?>/images/logo.png" />
-    <meta property="og:description" content="Quotes for Everyone" />
+    <meta property="og:title" content="quoteMatic!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="Frases Gratis para Todos || Quotes for Everyone" />
+    <meta property="og:image" content="https://media.poetryfoundation.org/m/image/882/caesar-vallejo.jpg">
+    <meta property="fb:app_id" content="335117643494133">
 
     <title>quoteMatic</title>
 </head>
@@ -53,17 +54,17 @@
                 </div>
                 <div class="author"><span class="author_name"></span>
                 </div>
-<!--                <div class="fb-share-button pull-left"
-                     data-href ="<?php //Yii::app()->getBaseUrl(true) ?>"
-                     data-layout="button" data-caption="caption caption"
-                     data-size="small" data-mobile-iframe="false">
-                    <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?= Yii::app()->getBaseUrl(true) ?>&amp;src=sdkpreparse">
-                        Compartir
-                    </a>
-                </div>
-                <div class="whatsapp pull-left">
-                    <a href="" data-action="share/whatsapp/share" class="fa fa-whatsapp bolder"> Compartir</a>
-                </div>-->
+                <!--                <div class="fb-share-button pull-left"
+                                     data-href ="<?php //Yii::app()->getBaseUrl(true)          ?>"
+                                     data-layout="button" data-caption="caption caption"
+                                     data-size="small" data-mobile-iframe="false">
+                                    <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?= Yii::app()->getBaseUrl(true) ?>&amp;src=sdkpreparse">
+                                        Compartir
+                                    </a>
+                                </div>
+                                <div class="whatsapp pull-left">
+                                    <a href="" data-action="share/whatsapp/share" class="fa fa-whatsapp bolder"> Compartir</a>
+                                </div>-->
                 <hr style="border: transparent">
             </div>
         </div>
